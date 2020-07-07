@@ -122,7 +122,7 @@ public class todo extends RESTService {
      
 
 
-
+    return Response.status(HttpURLConnection.HTTP_OK).entity()
 
     // response
     boolean response_condition = true;
