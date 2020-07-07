@@ -123,8 +123,6 @@ public class todo extends RESTService {
 
 
     return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build();
-    }
-    return null;
   }
 
   /**
