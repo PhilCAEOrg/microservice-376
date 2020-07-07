@@ -150,22 +150,11 @@ public class todo extends RESTService {
 
      
     // service method invocations
+    JSONObject result = new JSONObject(); 
+ 
+    result.set("")
 
-     
-
-
-
-
-    // response
-    boolean response_condition = true;
-    if(response_condition) {
-      JSONObject result = new JSONObject();
-
-      
-
-      return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build();
-    }
-    return null;
+    return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build();
   }
 
 
