@@ -122,7 +122,7 @@ public class todo extends RESTService {
      
 
 
-    return Response.status(HttpURLConnection.HTTP_OK).entity()
+    return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build();
 
     // response
     boolean response_condition = true;
