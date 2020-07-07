@@ -152,7 +152,7 @@ public class todo extends RESTService {
     // service method invocations
     JSONObject result = new JSONObject(); 
  
-    result.set("test", "hi");
+    result.put("test", "hi");
 
     return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build();
   }
